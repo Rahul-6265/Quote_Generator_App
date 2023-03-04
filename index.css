@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.card {
+    margin-top: 15%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 9px black;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+#quote,
+#author {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 1rem;
+    width: 15%;
+    background-color: rgb(42, 132, 165);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
